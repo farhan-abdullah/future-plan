@@ -211,9 +211,11 @@ input[type="email"]{
   width: 300px;
   border-radius: 5px;
   margin-bottom: 20px;
+  background-color: #151414 ;
+  border: 1px solid white;
 }
 .btn-subs{
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   color: #FFFFFF;
   background-color: #005FAC;
