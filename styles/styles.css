@@ -53,7 +53,7 @@
 .second-container{
     display: flex;
     align-items:flex-end;
-    margin: 100px 206px;
+    margin: 130px auto;
     gap: 200px;
 }
 
