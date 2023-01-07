@@ -247,7 +247,7 @@ input[type="email"]{
 }
 .about-info-container {
   display: flex;
-  justify-content: space-around; /*flex properti, distribuisce modo uguale*/
+  justify-content: space-around;  
 }
 .info-title {
   color: #757575;
