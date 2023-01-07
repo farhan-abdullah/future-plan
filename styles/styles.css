@@ -53,14 +53,10 @@
 .second-container{
     display: flex;
     align-items:flex-end;
-    gap: 87px;
+    margin: 60px 206px;
+    gap: 200px;
 }
 
-  
-.second-container{
-    margin: 60px 206px;
-
-  }
 .img{
     width: 569px;
     height: 723px;
