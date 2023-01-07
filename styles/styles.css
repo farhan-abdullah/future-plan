@@ -8,9 +8,10 @@
 
 .header{
     background: url('../images/banner/banner3.png') no-repeat center center fixed;
-    height: 700px;
+    min-height: 710px; 
+    width: 100%;
     background-repeat:no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% auto;
 }
 .title{
     font-weight: 700;
@@ -20,6 +21,7 @@
     margin-right: 230px;
     width: 525px;
     height: 228px;
+    text-align: right;
 }
 .description{
     font-weight: 400;
@@ -28,6 +30,7 @@
     margin-right: 230px;
     width: 494px;
     height: 78px;
+    text-align: right;
 }
 .primary-btn{
     color: #005FAC;
@@ -36,12 +39,58 @@
     border-radius: 5px;
     border: 0;
 }
-.header-container{
+.first-container{
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
   }
-  .item{
-    text-align: right;
+/* second section styles */
+.second-container{
+    display: flex;
+    align-items:flex-end;
+    gap: 87px;
+}
+
+  
+section{
+    margin: 60px 300px 60px 206px;
+
   }
+.img{
+    width: 569px;
+    height: 723px;
+  }
+.inner-container{
+    width: 416px;
+    height: 392px;
+}
+.second-title{
+    width: 288px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+
+  }
+.second-description{
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+
+  }
+  ul {
+    list-style: none; 
+    margin-left:0px;
+    padding-left:0px;
+  }
+  ul li {
+    padding-left: 2rem;
+    background-image: url('../images/718731.png');
+    background-position: 0 0;
+    background-size: 1.6rem 1.2rem;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+     }
+    
