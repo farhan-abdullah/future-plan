@@ -93,4 +93,30 @@ section{
     background-repeat: no-repeat;
     margin-bottom: 8px;
      }
+    .item{
+    margin-bottom: 16px;
+    }
+    /* third section style */
+.third-container{
+    margin-top: 60px;
     
+}
+.my-plans{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 60px auto;
+    
+    text-align: center;
+    color: #151414;
+}
+.plans{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 20px;
+}
+figcaption{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #151414;
+}
