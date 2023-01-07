@@ -53,8 +53,8 @@
 .second-container{
     display: flex;
     align-items:flex-end;
-    margin: 130px auto;
-    gap: 200px;
+    margin: 130px 206px;
+    gap: 100px;
 }
 
 .img{
@@ -247,7 +247,7 @@ input[type="email"]{
 }
 .about-info-container {
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-around; /*flex properti, distribuisce modo uguale*/
 }
 .info-title {
   color: #757575;
